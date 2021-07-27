@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="utilities.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>SmazStore | Home</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <!-- navabar -->
+        <div class="navbar">
+          <div class="logo">
+            <img src="./images/logo_transparent.png" alt="" width="60px" />
+          </div>
+          <nav>
+            <ul id="menuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="account.html">Account</a></li>
+            </ul>
+          </nav>
+          <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
+          <i class="fa fa-bars menu" onclick="menutoggle()"></i>
+        </div>
+
+        <!-- main content -->
+        <header>
+          <div class="row">
+            <div class="col-2">
+              <h1>Fashion Carnival!</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+                quibusdam? Cumque facere voluptates adipisci. Iste id voluptates
+                numquam est ipsa.
+              </p>
+              <a href="products.html" class="btn">Explore More &#8594;</a>
+            </div>
+            <div class="col-2">
+              <img id="banner-img" src="./images/banner.jpg" alt="" />
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+
+    <main>
+      <!------ featured categories ------>
+      <div class="categories">
+        <h2 class="title">Featured Products</h2>
+        <div class="container-small">
+          <div class="row">
+            <div class="col col-3">
+              <img src="./images/shoes/women-shoes.jpg" alt="Shoes" />
+            </div>
+            <div class="col col-3">
+              <img src="./images/clothes/all-clothes.jpg" alt="clothes" />
+            </div>
+            <div class="col col-3">
+              <img src="./images/bags/all-bags.jpg" alt="Bags" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!------ featured bags ----->
+      <div class="container-small">
+        <h2 class="title">Our Featured Bags</h2>
+        <div class="row">
+          <div class="col col-4">
+            <a href="./product_details.html">
+              <img src="./images/bags/backpack.jpg" alt=""
+            /></a>
+            <h4>Back pack</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$15.00</p>
+          </div>
+          <div class="col col-4">
+            <img src="./images/bags/sling-bags.jpg" alt="" />
+            <h4>Sling bags</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$10.00</p>
+          </div>
+          <div class="col col-4">
+            <img src="./images/bags/women-handbags.jpg" alt="" />
+            <h4>Handbags</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$25.00</p>
+          </div>
+          <div class="col col-4">
+            <img src="./images/bags/all-bags.jpg" alt="" />
+            <h4>Bags</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$8.00 - $28.00</p>
+          </div>
+        </div>
+        <!------ featured shoes ------>
+        <h2 class="title">Our Top Featured Shoes</h2>
+        <div class="row">
+          <div class="col col-4">
+            <img src="./images/shoes/mean-official-shoes.jpg" alt="" />
+            <h4>Men Official Shoes</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$35.00</p>
+          </div>
+          <div class="col col-4">
+            <img src="./images/shoes/men-sneakers.jpg" alt="" />
+            <h4>Men Sneakers</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$40.00</p>
+          </div>
+          <div class="col col-4">
+            <img src="./images/shoes/rubber_shoes.jpg" alt="" />
+            <h4>Rubber Shoes</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$20.00</p>
+          </div>
+          <div class="col col-4">
+            <img src="./images/shoes/women-shoes.jpg" alt="" />
+            <h4>Women Shoes</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$18.00 - $28.00</p>
+          </div>
+        </div>
+
+        <!------- featured clothes ------>
+        <h2 class="title">Our Top Featured Clothes</h2>
+        <div class="row">
+          <div class="col col-4">
+            <img src="./images/clothes/men-wear.jpg" alt="" />
+            <h4>Men Wear</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$35.00</p>
+          </div>
+          <div class="col col-4">
+            <img src="./images/clothes/t-shirts.jpg" alt="" />
+            <h4>Unisex T-shirts</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$10.00</p>
+          </div>
+          <div class="col col-4">
+            <img src="./images/clothes/women-fashions.jpg" alt="" />
+            <h4>Women fashion</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$40.00</p>
+          </div>
+          <div class="col col-4">
+            <img src="./images/clothes/all-clothes.jpg" alt="" />
+            <h4>Clothes</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$8.00 - $40.00</p>
+          </div>
+        </div>
+      </div>
+      <!----- Offers ----->
+      <div class="offer">
+        <div class="container-small">
+          <div class="row">
+            <div class="col-2">
+              <img
+                class="offer-img"
+                src="./images/shoes/women-fashions.jpg"
+                alt=""
+              />
+            </div>
+            <div class="col-2">
+              <p>Exclusively Available on SmazStore</p>
+              <h1>Sling Bags</h1>
+              <small
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deleniti dolorum corporis, fugiat aliquam nostrum, labore
+                quibusdam fugit voluptatem accusantium, pariatur molestiae porro
+                nesciunt voluptate dolore adipisci accusamus illum quos
+                culpa.</small
+              ><br />
+              <a href="" class="btn links">Buy Now &#8594;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------ testimonials  ------>
+      <div class="testimonials">
+        <h2 class="title">Client Testimonials</h2>
+        <div class="container-small">
+          <div class="row">
+            <div class="col-3">
+              <i class="fa fa-quote-left"></i>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Deleniti blanditiis expedita iure cumque commodi, consectetur
+                inventore totam quaerat, laborum ut sunt nemo assumenda
+                laboriosam, corrupti exercitationem optio veniam dicta! Cum!
+              </p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <img class="profile" src="./images/user-1.jpg" alt="" />
+              <h3>Julian Wan</h3>
+            </div>
+            <div class="col-3">
+              <i class="fa fa-quote-left"></i>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Deleniti blanditiis expedita iure cumque commodi, consectetur
+                inventore totam quaerat, laborum ut sunt nemo assumenda
+                laboriosam, corrupti exercitationem optio veniam dicta! Cum!
+              </p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <img class="profile" src="./images/user-2.jpg" alt="" />
+              <h3>Michael Dam</h3>
+            </div>
+            <div class="col-3">
+              <i class="fa fa-quote-left"></i>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Deleniti blanditiis expedita iure cumque commodi, consectetur
+                inventore totam quaerat, laborum ut sunt nemo assumenda
+                laboriosam, corrupti exercitationem optio veniam dicta! Cum!
+              </p>
+              <i class="fa fa-qoute-right"></i>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <img class="profile" src="./images/user-3.jpg" alt="" />
+              <h3>Alex Surpun</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-------- footer  ------->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h3>Download Our App</h3>
+              <p>Download App from Play Store and App Store</p>
+              <div class="app-logo">
+                <img src="./images/play-store.jpg" alt="" width="150px" />
+                <img src="./images/app-store.jpg" alt="" width="150px" />
+              </div>
+            </div>
+            <div class="footer-col-2">
+              <img src="./images/logo_transparent.png" alt="" width="50px" />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Eligendi, id.
+              </p>
+            </div>
+            <div class="footer-col-3">
+              <h3>Useful Links</h3>
+              <ul>
+                <li>Coupons</li>
+                <li>Blog Posts</li>
+                <li>Our Policy</li>
+              </ul>
+            </div>
+            <div class="footer-col-4">
+              <h3>Follow us</h3>
+              <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <p class="copyright">Copyright 2021 - SmazStore</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

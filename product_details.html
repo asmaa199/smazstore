@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="utilities.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>SmazStore | Product</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- navabar -->
+      <div class="navbar">
+        <div class="logo">
+          <img src="./images/logo_transparent.png" alt="" width="60px" />
+        </div>
+        <nav>
+          <ul id="menuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
+        <i class="fa fa-bars menu" onclick="menutoggle()"></i>
+      </div>
+    </div>
+    <!------ single product details ----->
+    <div class="container-small single-product">
+      <div class="row">
+        <div class="col-2">
+          <img
+            src="./images/bags/backpack.jpg"
+            alt=""
+            width="100%"
+            id="product-img"
+          />
+
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img
+                src="./images/bags/backpack.jpg"
+                alt=""
+                width="100%"
+                class="small-img"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="./images/bags/sling-bags.jpg"
+                alt=""
+                width="100%"
+                class="small-img"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="./images/bags/backpack.jpg"
+                alt=""
+                width="100%"
+                class="small-img"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="./images/bags/women-handbags.jpg"
+                alt=""
+                width="100%"
+                class="small-img"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+         
+          <h1>Back Pack</h1>
+          <h4>$15.00</h4>
+          <select name="" id="">
+            <option value="">Select Colour</option>
+            <option value="">Black</option>
+            <option value="">Grey</option>
+            <option value="">Brown</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="cart.html" class="btn links">Add to Cart</a>
+
+          <h3>Product Details <i class="fa fa-indent"></i></h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque at
+            suscipit iure vitae debitis odio quasi reprehenderit beatae
+            recusandae ab.
+          </p>
+        </div>
+      </div>
+    </div>
+<!------ title  ----->
+     <div class="container-small">
+         <div class="row row-2">
+           <h2>Related Products</h2>
+           <p>View More</p>
+         </div>
+     </div>
+<!------ other products  ----->
+    <div class="container-small">
+      <div class="row">
+        <div class="col col-4">
+          <img src="./images/bags/backpack.jpg" alt="" />
+          <h4>Back pack</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$15.00</p>
+        </div>
+        <div class="col col-4">
+          <img src="./images/bags/sling-bags.jpg" alt="" />
+          <h4>Sling bags</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$10.00</p>
+        </div>
+        <div class="col col-4">
+          <img src="./images/bags/women-handbags.jpg" alt="" />
+          <h4>Handbags</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$25.00</p>
+        </div>
+        <div class="col col-4">
+          <img src="./images/bags/all-bags.jpg" alt="" />
+          <h4>Bags</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$8.00 - $28.00</p>
+        </div>
+      </div>
+    </div>
+    <!-------- footer  ------->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h3>Download Our App</h3>
+              <p>Download App from Play Store and App Store</p>
+              <div class="app-logo">
+                <img src="./images/play-store.jpg" alt="" width="150px" />
+                <img src="./images/app-store.jpg" alt="" width="150px" />
+              </div>
+            </div>
+            <div class="footer-col-2">
+              <img src="./images/logo_transparent.png" alt="" width="50px" />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Eligendi, id.
+              </p>
+            </div>
+            <div class="footer-col-3">
+              <h3>Useful Links</h3>
+              <ul>
+                <li>Coupons</li>
+                <li>Blog Posts</li>
+                <li>Our Policy</li>
+              </ul>
+            </div>
+            <div class="footer-col-4">
+              <h3>Follow us</h3>
+              <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <p class="copyright">Copyright 2021 - SmazStore</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      var productImg = document.getElementById("product-img");
+      var smallImg = document.getElementsByClassName("small-img");
+
+      smallImg[0].onclick = function () {
+        productImg.src = smallImg[0].src;
+      };
+      smallImg[1].onclick = function () {
+        productImg.src = smallImg[1].src;
+      };
+      smallImg[2].onclick = function () {
+        productImg.src = smallImg[2].src;
+      };
+      smallImg[3].onclick = function () {
+        productImg.src = smallImg[3].src;
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="utilities.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>SmazStore | Account</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- navabar -->
+      <div class="navbar">
+        <div class="logo">
+          <img src="./images/logo_transparent.png" alt="" width="60px" />
+        </div>
+        <nav>
+          <ul id="menuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
+        <i class="fa fa-bars menu" onclick="menutoggle()"></i>
+      </div>
+    </div>
+
+<!------ Account details ------>
+    <div class="account">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./images/banner.jpg" alt="" width="100%">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                                <span onclick="login()">Login</span>
+                                <span onclick="register()">Register</span>
+                                <hr id="indicator">
+                            </div>
+                        <form id = "login-form">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+
+                            <button type="submit" class="btn">Login</button>
+                            <a href="">Forgot Password</a>
+
+                        </form>
+
+                        <form id = "reg-form">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email Address">
+                            <input type="password" placeholder="Password">
+
+                            <button type="submit" class="btn">Register</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<!-------- footer  ------->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h3>Download Our App</h3>
+              <p>Download App from Play Store and App Store</p>
+              <div class="app-logo">
+                <img src="./images/play-store.jpg" alt="" width="150px" />
+                <img src="./images/app-store.jpg" alt="" width="150px" />
+              </div>
+            </div>
+            <div class="footer-col-2">
+              <img src="./images/logo_transparent.png" alt="" width="50px" />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Eligendi, id.
+              </p>
+            </div>
+            <div class="footer-col-3">
+              <h3>Useful Links</h3>
+              <ul>
+                <li>Coupons</li>
+                <li>Blog Posts</li>
+                <li>Our Policy</li>
+              </ul>
+            </div>
+            <div class="footer-col-4">
+              <h3>Follow us</h3>
+              <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <p class="copyright">Copyright 2021 - SmazStore</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        var loginForm = document.getElementById("login-form");
+        var regForm = document.getElementById("reg-form");
+        var indicator = document.getElementById("indicator");
+
+        function register(){
+            regForm.style.transform = "translateX(0px)";
+            loginForm.style.transform = "translateX(0px)";
+            indicator.style.transform = "translateX(100px)";
+        }
+
+        function login(){
+            regForm.style.transform = "translateX(300px)";
+            loginForm.style.transform = "translateX(300px)";
+            indicator.style.transform = "translateX(0px)";
+        }
+
+
+    </script>
+  </body>
+</html>
